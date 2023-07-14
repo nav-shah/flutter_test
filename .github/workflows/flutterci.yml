@@ -45,7 +45,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo xcode-select --switch /Applications/Xcode_12.app/Contents/Developer
+          sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
           sudo xcodebuild -runFirstLaunch
 
       - name: Set up Flutter packages
